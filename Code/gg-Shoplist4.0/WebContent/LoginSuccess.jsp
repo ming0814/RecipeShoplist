@@ -9,14 +9,16 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- Navigation links --> 
+
 <a href="Logout"> Logout </a> <br>
+<a href="Home.jsp"> Home Page </a> <br>
 <h1>Success!</h1>
 <h2> Successful login!</h2>
 
 <br>
 <br>
 
-<!-- Navigation links --> 
-<a href="Home.jsp"> Home Page </a> <br>
+
 </body>
 </html>

@@ -10,7 +10,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
-  background: url(bacon.jpg);
+  background: url("diner-bacon.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-  color: #fff;
+  color: #000;
   font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 5vw;
@@ -91,6 +91,22 @@ input[type=submit] {
     opacity: 0.85;
     /* border: none;
     color: white; */
+    padding: 10px 60px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+}
+
+#get{
+	border: 4px solid #999;
+    color: white;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    opacity: 0.85;
+    /* border: none;
+    color: white; */
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -104,5 +120,3 @@ input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus {
   color: #000;
   transition-duration: .5s;
 }
-
-

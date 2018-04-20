@@ -7,6 +7,8 @@
 <title>Welcome</title>
 <link rel="stylesheet" href="style.css">
 </head>
+<a href="Logout"> Logout </a> <br>
+<a href="userIngre.jsp"> Your shopplist </a> <br>
 <h2>
 <body>
 	<h1>Welcome ${user.userName}<h1>

@@ -12,17 +12,21 @@
 </style>
 </head>
 <body>
+	
+	<a href="Logout"> Logout </a><br>
 	<a href="Home.jsp"> Home Page </a> <br>
-	<p><a href="Logout"> Logout </a></p><br>
 	<p><img alt="" src="${recipe.image}" style="width: 500px; height: 500px;"></p> 
-	<h2><span>Ingredients: </span></h2>
+	<h2><span>Ingredients: </span></br></h2>
 	<h3>
 		<c:forEach items="${recipe.ingredientName}" var="ingValue">
-	        <tr>${ingValue.ingName}</tr>
-	        	<form action="UserIngredient" method="get">		
-	        <input name=userIngreName value="${ingValue.ingName}" hidden>
-	        <input type="submit" value="Add"/>
-	        </form>
+	        <tr>
+		        <td>${ingValue.ingName}</td>
+		        <td>	<form action="UserIngredient" method="get">		
+		        <input name=userIngreName value="${ingValue.ingName}" hidden>
+		        <input type="submit" value="Add"/>
+		        </form>
+	 	       <td>
+	        </tr>
 	  	</c:forEach>
 	  </h3>
 	<br>
@@ -36,7 +40,7 @@
 	<br>
 	<h2><span>Cook Time: </span></h2><h3> ${recipe.cookTime}</h3> 
 	<br>
-	<h2><span>Amount: </span></h2>
+	<h2><span>Amount: </span></h2><h3> ${recipe.amount}</h3> 
 	<h3>
 		<c:forEach items="${recipe.ingredientName}" var="ingValue">
 			<tr>${ingValue.ingName}</tr>

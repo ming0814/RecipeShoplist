@@ -6,14 +6,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Recipe List</title>
-<link rel="stylesheet" href="hi.css">
+<link rel="stylesheet" href="style2.css">
 </head>
 <body>
-	<p><a href="Logout"> Logout </a></p>
+	<a href="Logout"> Logout </a> </br>
+	<a href="Home.jsp"> Home Page </a> <br>
 	<!-- <input type="text" name="userIngreName" id="userIngreName"/> -->
 	<table>
 		<tr>
-			<th><h3>	Recipes</h3></th>
+			<th><h2>	Recipes</h2></th>
 		</tr>
 		<c:forEach items="${recipelist}" var="RecipesValue">
 	    <tr>
@@ -24,6 +25,5 @@
 	  </c:forEach>
 	</table>
 <br>
-<a href="Home.jsp"> Home Page </a> <br>
 </body>
 </html>

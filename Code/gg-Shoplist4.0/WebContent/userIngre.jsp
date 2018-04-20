@@ -7,11 +7,12 @@
 <title>Your Ingredients</title>
 <link rel="stylesheet" href="hi.css">
 </head>
+<a href="Logout"> Logout </a>  <br>
+<a href="Home.jsp"> Home Page </a> <br>
 <body>
-<p><a href="Logout"> Logout </a></p>
-<h2>
-	<p>${addIngreResult}</p>
-</h2>
+<h1>
+	${addIngreResult}
+</h1>
 
 	<!-- <input type="text" name="userIngreName" id="userIngreName"/> -->
 	<table align="center">
@@ -28,7 +29,6 @@
 	  </c:forEach>
 	</table>
 	<form action="GetRecipeList"> 
-      		<input type=submit value="GetRecipes" name=GetRecipes></form>
-<a href="Home.jsp"> Home Page </a> <br>
+      		<input id="get" type=submit value="Get Recipes" name=GetRecipes></form>
 </body>
 </html>
