@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'icomoon';
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #828282;
+  background: url(bacon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  color: #3CB5FF;
+  text-decoration: none;
+  font-size: 2vw;
+  margin-left: 17%;
+}
+a:hover, a:active, a:focus {
+  color: #3C86B3;
+  outline: none;
+  transition-duration: .5s;
+}
+
+p {
+  margin-bottom: 20px;
+  
+}
+
+h1 {
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-size: 13vw;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 5vw;
+  margin: 0 0 10px 0;
+  text-align: center;
+  opacity: 0.9;
+}
+
+h3 {
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  margin: 0 0 20px 0;
+}
+
+input {
+  width: 50%;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin-left: 24%;
+    opacity: 0.85;
+    box-sizing: border-box;
+    font-size: 20pt;
+}
+
+
+
+input[type=password] {
+    padding: 12px 20px;
+    margin: 20px 0;
+    opacity: 0.85;
+    box-sizing: border-box;
+    font-size: 20pt;
+    margin-left: 24%;
+}
+
+input[type=submit] {
+	border: 4px solid #999;
+    color: white;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    opacity: 0.85;
+    /* border: none;
+    color: white; */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin-left: 40%;
+}
+
+input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus {
+  border: 4px solid #777;
+  color: #000;
+  transition-duration: .5s;
+}
+
+
